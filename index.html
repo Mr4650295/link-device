@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OmniConnect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'wa-green': '#25D366',
+                        'wa-green-dark': '#128C7E',
+                        'wa-teal': '#075E54',
+                        'wa-blue': '#34B7F1',
+                        'wa-bg-light': '#ECE5DD',
+                        'wa-bg-chat': '#E5DDD5',
+                        'wa-bg-dark': '#131C21',
+                        'wa-bg-chat-dark': '#0D1418',
+                        'wa-msg-light': '#FFFFFF',
+                        'wa-msg-sent-light': '#DCF8C6',
+                        'wa-msg-dark': '#262D31',
+                        'wa-msg-sent-dark': '#054740'
+                    },
+                    transitionProperty: {
+                        'transform': 'transform',
+                    },
+                },
+            },
+        };
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-100 dark:bg-wa-bg-dark">
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.js"></script>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

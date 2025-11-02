@@ -1,0 +1,8 @@
+{
+  "name": "Copy of OmniConnect ‍app",
+  "description": "A powerful business communication platform that combines the familiar interface of WhatsApp with advanced features like advanced labeling, intelligent call management, in-app voice messaging, and internal team chat.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
